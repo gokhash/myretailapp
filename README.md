@@ -60,7 +60,10 @@ curl -X PUT -H "Content-Type: application/json" -d '{"id":54456119, "current_pri
 ```
 ###### Swagger Documentation
 
-![Alt text](myretailapp/docs/myretail_get.gif)
+All Swagger tests and documentation is on
+```
+http://localhost:5000
+```
 
 
 
