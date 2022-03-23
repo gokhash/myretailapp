@@ -56,8 +56,8 @@ curl http://localhost:5000/api/product/13264003
 ```
 2. Update Product Price for a given Product Id and display the updated Product information
 ```
+curl -X PUT -H "Content-Type: application/json" -d '{"id":54456119, "current_price": {"value": 5.88, "currency_code": "USD"}}' http://localhost:5000/api/product/54456119
 ```
-
 ###### Swagger Documentation
 
 ```
