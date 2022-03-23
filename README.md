@@ -18,11 +18,11 @@ This application is a RESTful API service that provides Retail Product informati
 #### Techology Stack
 
 1.	Python 3.8.10 (All python modules needed are specified in requirements.txt)
-    - PyJq
-    - FlaskRestx
-    - python_mongoengine
-    - requests
-2.	MongoDB
+    - PyJq   (Binding for jq JSON processor https://github.com/doloopwhile/pyjq)
+    - FlaskRestx (https://flask-restx.readthedocs.io/en/latest/)
+    - python_mongoengine (https://pypi.org/project/mongoengine/)
+    - requests (https://pypi.org/project/requests/)
+2.	MongoDB (https://docs.mongodb.com/)
 3.	Docker
 
 #### Setup Instructions:
@@ -60,9 +60,7 @@ curl -X PUT -H "Content-Type: application/json" -d '{"id":54456119, "current_pri
 ```
 ###### Swagger Documentation
 
-```
-http://localhost:5000/api/product/
-```
+![Alt text](myretailapp/docs/myretail_get.gif)
 
 
 
