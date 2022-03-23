@@ -1,0 +1,6 @@
+flask
+pyjq
+flask_mongoengine
+requests
+flask_restx
+simplejson
